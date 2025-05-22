@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                 &kp UNDERSCORE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp TILDE
-&none                      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &none       &kp BACKSLASH  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR     &kp PERCENT
-&mt LS(NUMBER_0) NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &none       &kp CARET      &kp AT_SIGN      &kp COMMA             &kp PERIOD             &kp HASH       &kp SLASH
-&trans                     &trans        &trans        &trans        &trans        &trans      &trans         &trans                                                                       &none
+&kp MINUS                &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                 &kp UNDERSCORE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PERCENT
+&none                    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &none       &kp BACKSLASH  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR     &kp SEMICOLON
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL     &none       &kp CARET      &kp AT_SIGN      &kp COMMA             &kp PERIOD             &kp HASH       &kp SLASH
+&trans                   &trans        &trans        &trans        &trans        &trans      &trans         &trans                                                                       &kp CARET
             >;
         };
 
