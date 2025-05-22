@@ -69,7 +69,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R        &kp T                                                                     &kp Y            &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F        &kp G                   &kp LS(LG(S))                   &kp MINUS         &kp H            &kp J  &kp K      &kp L    &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B                   &kp LANG8                       &kp LANG9         &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B                   &kp INT_MUHENKAN                &kp INT_HENKAN    &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 6 SPACE  &lt_to_layer_0 2 COLON  &lt_to_layer_0 3 SEMICOLON      &kp SINGLE_QUOTE  &lt 1 BACKSPACE                             &kp DEL
             >;
 
