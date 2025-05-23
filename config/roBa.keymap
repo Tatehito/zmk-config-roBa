@@ -80,7 +80,7 @@
             bindings = <
 &trans          &kp NUMBER_7  &kp N8        &kp NUMBER_9  &trans                      &kp K_MUTE  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp LG(LC(V))
 &kp INT_HENKAN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans      &none   &none       &mkp MB1         &mkp MB3          &mkp MB2           &kp INT_MUHENKAN
-&kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &none       &trans           &trans            &trans             &none
+&kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &none       &mkp MB4         &trans            &mkp MB5           &none
 &trans          &trans        &trans        &trans        &trans  &trans      &trans  &to 4                                                             &to 0
             >;
         };
