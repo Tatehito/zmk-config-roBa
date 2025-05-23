@@ -68,7 +68,7 @@
         DEFAULT {
             bindings = <
 &mt LEFT_ALT Q      &kp W         &kp E       &kp R        &kp T                                         &kp Y        &kp U  &lt 4 I  &kp O  &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D       &kp F        &kp G      &none                       &none  &kp H        &kp J  &kp K    &kp L  &mo 3
+&mt LEFT_CONTROL A  &kp S         &kp D       &kp F        &kp G      &none                       &none  &kp H        &kp J  &lt 1 K  &kp L  &mo 3
 &mt LEFT_SHIFT Z    &kp X         &kp C       &kp V        &kp B      &none                       &none  &kp N        &kp M  &none    &none  &none
 &none               &kp LEFT_WIN  &kp ESCAPE  &lt 1 SPACE  &lt 5 TAB  &mt LEFT_ALT BACKSPACE      &none  &lt 2 ENTER                         &none
             >;
