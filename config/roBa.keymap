@@ -22,16 +22,6 @@
         };
     };
 
-    macros {
-        lock_to_layer_0: lock_to_layer_0 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(L)>, <&macro_press>, <&to 0>;
-
-            label = "LOCK_TO_LAYER_0";
-        };
-    };
-
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
