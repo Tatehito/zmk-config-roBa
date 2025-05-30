@@ -39,9 +39,9 @@
         DEFAULT {
             bindings = <
 &kp Q           &kp W             &kp E         &kp R        &kp T                              &kp Y            &kp U  &lt 3 I        &kp O              &kp P
-&kp A           &kp S             &kp D         &kp F        &kp G   &trans          &trans     &kp H            &kp J  &lt 1 K        &kp L              &kp ENTER
+&kp A           &kp S             &kp D         &kp F        &kp G   &trans          &trans     &kp H            &kp J  &kp K          &kp L              &kp ENTER
 &kp Z           &kp X             &kp C         &kp V        &kp B   &kp ESCAPE      &kp LG(L)  &kp N            &kp M  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE  &trans  &trans          &trans     &lt 2 BACKSPACE                                           &to 0
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE  &trans  &trans          &mo 1      &lt 2 BACKSPACE                                           &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
