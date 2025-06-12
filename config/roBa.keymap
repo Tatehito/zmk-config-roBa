@@ -25,6 +25,16 @@
             bindings = <&kp RS(RIGHT_CONTROL)>;
             key-positions = <18 19>;
         };
+
+        left_to_symbol_layer {
+            bindings = <&mo 3>;
+            key-positions = <13 14>;
+        };
+
+        right_to_symbol_layer {
+            bindings = <&mo 3>;
+            key-positions = <17 18>;
+        };
     };
 
     behaviors {
@@ -74,10 +84,10 @@
 
         NUMBER {
             bindings = <
-&kp ESCAPE    &kp NUMBER_7               &kp N8        &kp NUMBER_9  &trans                                 &trans      &trans           &trans  &trans  &kp LG(LC(V))
-&kp TAB       &mt LEFT_COMMAND NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans      &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &trans  &trans  &trans
-&kp NUMBER_0  &kp NUMBER_1               &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LG(LC(V))      &trans      &trans           &trans  &trans  &trans
-&trans        &trans                     &trans        &trans        &trans  &to 5       &trans             &trans                                       &to 0
+&trans        &kp NUMBER_7  &kp N8        &kp NUMBER_9  &trans                                 &trans      &trans           &trans  &trans  &kp LG(LC(V))
+&trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans      &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &trans  &trans  &trans
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &kp LG(LC(V))      &trans      &trans           &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &to 5       &trans             &trans                                       &to 0
             >;
         };
 
@@ -92,10 +102,10 @@
 
         SCROLL {
             bindings = <
-&kp ESCAPE      &trans      &kp UP_ARROW    &trans     &trans                                  &trans  &trans                  &trans             &trans  &trans
-&trans          &kp LEFT    &kp DOWN_ARROW  &kp RIGHT  &trans  &trans            &trans        &trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT))  &trans  &trans
-&trans          &trans      &trans          &trans     &trans  &bt BT_SEL 0      &bt BT_SEL 1  &trans  &trans                  &trans             &trans  &trans
-&bt BT_CLR_ALL  &bt BT_CLR  &trans          &trans     &trans  &trans            &trans        &trans                                                     &to 0
+&kp ESCAPE      &trans                 &kp UP_ARROW    &trans     &trans                                  &trans  &trans                  &trans             &trans  &trans
+&kp TAB         &mt LEFT_COMMAND LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans            &trans        &trans  &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT))  &trans  &trans
+&trans          &trans                 &trans          &trans     &trans  &bt BT_SEL 0      &bt BT_SEL 1  &trans  &trans                  &trans             &trans  &trans
+&bt BT_CLR_ALL  &bt BT_CLR             &trans          &trans     &trans  &trans            &trans        &trans                                                     &to 0
             >;
         };
 
