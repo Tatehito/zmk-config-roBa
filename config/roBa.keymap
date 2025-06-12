@@ -25,16 +25,6 @@
             bindings = <&kp RS(RIGHT_CONTROL)>;
             key-positions = <18 19>;
         };
-
-        left_to_symbol_layer {
-            bindings = <&mo 3>;
-            key-positions = <13 14>;
-        };
-
-        right_to_symbol_layer {
-            bindings = <&mo 3>;
-            key-positions = <17 18>;
-        };
     };
 
     behaviors {
@@ -63,9 +53,9 @@
         DEFAULT {
             bindings = <
 &kp Q             &kp W             &kp E             &kp R      &kp T                             &kp Y          &kp U  &lt 4 I            &kp O              &kp P
-&mt LEFT_SHIFT A  &kp S             &kp D             &kp F      &kp G   &kp LG(L)      &trans     &kp H          &kp J  &kp K              &kp L              &mt RIGHT_SHIFT ENTER
-&kp Z             &kp X             &kp C             &kp V      &kp B   &kp LANG2      &kp LANG1  &kp N          &kp M  &kp RIGHT_COMMAND  &kp RIGHT_CONTROL  &kp RIGHT_ALT
-&kp LEFT_ALT      &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp SPACE  &trans  &trans         &mo 2      &kp BACKSPACE                                               &to 0
+&mt LEFT_SHIFT A  &kp S             &kp D             &kp F      &kp G      &kp LG(L)      &trans  &kp H          &kp J  &kp K              &kp L              &mt RIGHT_SHIFT ENTER
+&kp Z             &kp X             &kp C             &kp V      &kp B      &mo 3          &mo 3   &kp N          &kp M  &kp RIGHT_COMMAND  &kp RIGHT_CONTROL  &kp RIGHT_ALT
+&kp LEFT_ALT      &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp SPACE  &kp LANG2  &kp LANG1      &mo 2   &kp BACKSPACE                                               &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
@@ -73,7 +63,7 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q         &to_layer_0 W             &to_layer_0 E             &to_layer_0 R      &to_layer_0 T                                 &to_layer_0 Y          &to_layer_0 U  &to_layer_0 I              &to_layer_0 O              &to_layer_0 P
+&to_layer_0 Q         &to_layer_0 W             &to_layer_0 E             &to_layer_0 R      &to_layer_0 T                                 &to_layer_0 Y          &to_layer_0 U  &lt_to_layer_0 4 I         &to_layer_0 O              &to_layer_0 P
 &to_layer_0 A         &to_layer_0 S             &to_layer_0 D             &to_layer_0 F      &to_layer_0 G  &to_layer_0 LG(L)      &trans  &to_layer_0 H          &mkp MB1       &to_layer_0 K              &mkp MB2                   &to_layer_0 ENTER
 &to_layer_0 Z         &to_layer_0 X             &to_layer_0 C             &to_layer_0 V      &to_layer_0 B  &trans                 &trans  &to_layer_0 N          &to_layer_0 M  &to_layer_0 RIGHT_COMMAND  &to_layer_0 RIGHT_CONTROL  &to_layer_0 RIGHT_ALT
 &to_layer_0 LEFT_ALT  &to_layer_0 LEFT_CONTROL  &to_layer_0 LEFT_COMMAND  &to_layer_0 SPACE  &trans         &trans                 &trans  &to_layer_0 BACKSPACE                                                                       &to 0
