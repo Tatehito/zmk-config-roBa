@@ -25,6 +25,16 @@
             bindings = <&kp RS(RIGHT_CONTROL)>;
             key-positions = <18 19>;
         };
+
+        left_command {
+            bindings = <&kp LEFT_COMMAND>;
+            key-positions = <24 25>;
+        };
+
+        right_command {
+            bindings = <&kp RIGHT_COMMAND>;
+            key-positions = <30 31>;
+        };
     };
 
     behaviors {
