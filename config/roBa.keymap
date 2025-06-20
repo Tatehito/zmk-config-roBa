@@ -28,12 +28,12 @@
 
         left_command {
             bindings = <&kp LEFT_COMMAND>;
-            key-positions = <24 25>;
+            key-positions = <13 25>;
         };
 
         right_command {
             bindings = <&kp RIGHT_COMMAND>;
-            key-positions = <30 31>;
+            key-positions = <30 18>;
         };
     };
 
