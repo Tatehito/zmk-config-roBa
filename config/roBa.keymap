@@ -119,5 +119,14 @@
 &trans      &trans                 &trans          &trans     &trans  &trans            &trans        &trans                                                       &to 0
             >;
         };
+
+        SYMBOLNUM {
+            bindings = <
+&kp NUMBER_1     &kp NUMBER_2   &kp NUMBER_3    &kp NUMBER_4    &kp NUMBER_5                                &kp NUMBER_6   &kp N7            &kp NUMBER_8       &kp N9                &kp N0
+&kp EXCLAMATION  &kp SEMICOLON  &kp APOSTROPHE  &kp MINUS       &kp EQUAL     &trans             &kp CARET  &kp AMPERSAND  &kp COMMA         &kp PERIOD         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans           &kp HASH       &kp GRAVE       &kp STAR        &kp DOLLAR    &kp BACKSLASH      &kp CARET  &kp PERCENT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT_SIGN           &kp SLASH
+&trans           &trans         &trans          &kp LEFT_SHIFT  &trans        &trans             &trans     &trans                                                                    &to 0
+            >;
+        };
     };
 };
