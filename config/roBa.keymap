@@ -116,10 +116,10 @@
 
         ZZZ {
             bindings = <
-&kp ESCAPE    &kp W             &none    &none   &kp T                       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
-&kp A         &kp S             &kp D    &kp F   &none   &trans      &trans  &kp R         &mkp MB1      &kp E         &mkp MB2      &kp Q
-&kp F1        &kp F2            &kp F3   &kp F4  &kp F5  &kp F6      &trans  &none         &kp M         &kp N         &kp C         &kp L
-&kp LEFT_ALT  &kp LEFT_CONTROL  &kp TAB  &kp F   &none   &none       &none   &kp SPACE                                               &to 0
+&kp ESCAPE    &kp W             &none    &kp R   &kp T                       &mkp MB3   &kp NUMBER_1  &lt 2 NUMBER_2  &kp NUMBER_3  &kp NUMBER_4
+&kp A         &kp S             &kp D    &kp F   &kp G   &trans      &trans  &kp H      &mkp MB1      &kp E           &mkp MB2      &kp Q
+&kp F1        &kp F2            &kp F3   &kp F4  &kp F5  &kp F6      &trans  &none      &kp M         &kp N           &kp C         &kp L
+&kp LEFT_ALT  &kp LEFT_CONTROL  &kp TAB  &kp F   &none   &none       &none   &kp SPACE                                              &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
