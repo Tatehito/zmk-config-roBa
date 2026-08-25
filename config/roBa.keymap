@@ -107,7 +107,7 @@
 
         MODE {
             bindings = <
-&to 4   &trans  &trans  &trans  &to 5                                   &kp C_VOLUME_UP    &trans  &trans  &trans  &trans
+&to 6   &trans  &trans  &trans  &to 5                                   &kp C_VOLUME_UP    &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans        &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans            &trans        &trans             &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0      &bt BT_SEL 2  &bt BT_SEL 1                               &to 0
@@ -136,10 +136,10 @@
 
         FF14 {
             bindings = <
-&kp Q   &kp W   &kp E     &kp R      &kp T                       &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A   &kp S   &kp D     &kp F      &kp G   &trans      &trans  &kp H      &kp J  &kp K      &kp L    &kp SEMI
-&kp Z   &kp X   &kp C     &kp V      &kp B   &trans      &trans  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
-&kp F1  &kp F2  &mkp MB1  &kp LSHFT  &trans  &trans      &trans  &kp LCTRL                             &trans
+&kp Q     &kp W    &kp E     &kp R      &kp T                           &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A     &kp S    &kp D     &kp F      &kp G   &trans          &trans  &kp H      &kp J  &kp K      &kp L    &kp SEMI
+&kp Z     &kp X    &kp C     &kp V      &kp B   &kp ESCAPE      &trans  &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
+&kp LALT  &kp TAB  &mkp MB1  &kp LSHFT  &trans  &trans          &trans  &kp LCTRL                             &to 0
             >;
         };
     };
